@@ -1,0 +1,50 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus-visible {
+  outline: 3px dashed #228bec;
+  outline-offset: 0;
+}
+html {
+  font: 62.5% / 1.15 sans-serif;
+}
+h1,
+h2 {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  -moz-osx-font-smoothing: inherit;
+  -webkit-font-smoothing: inherit;
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
